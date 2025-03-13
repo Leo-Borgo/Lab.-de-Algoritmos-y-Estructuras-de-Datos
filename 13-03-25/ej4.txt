@@ -1,0 +1,12 @@
+Mi opinion de los resultados:
+0.2 + 0.1 = 0.3
+3 * 0.1 = 0.3
+
+Resultados:
+>>> 0.2 + 0.1
+0.30000000000000004
+>>> 3 * 0.1
+0.30000000000000004
+
+No, no esperaba este resultado. Me resulta extraño el digito 4 al final de la respuesta.
+Luego de investigar, descubri que al no tener una representacion binaria exacta, la cual el programa pueda entender, sucede esto.
