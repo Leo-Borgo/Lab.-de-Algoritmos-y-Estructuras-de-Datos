@@ -1,0 +1,8 @@
+clubes = []
+
+clubes.append("River")
+clubes.append("Velez")
+clubes.append("Estudiantes")
+clubes.append("Arsenal")
+
+print(clubes)
