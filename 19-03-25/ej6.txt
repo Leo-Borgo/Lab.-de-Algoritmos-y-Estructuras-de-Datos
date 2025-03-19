@@ -1,0 +1,7 @@
+tipos_de_bicis = ["BMX", "Mountain Bike", "Ruta", "Plegable", "Eléctrica"]
+
+mi_primer_bici = tipos_de_bicis[0]
+
+mensaje = f"Mi primer tipo de bicicleta fue una {mi_primer_bici}."
+
+print(mensaje)
