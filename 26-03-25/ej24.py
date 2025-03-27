@@ -1,11 +1,12 @@
 import os, time, random
 
-usuarios_actuales = ["Messi", "Newton", "Einstein", "Leo", "Ronaldo"]
+usuarios_actuales = ["Messi", "MacAllister", "Einstein", "Leo", "Ronaldo"]
 usuarios_nuevos = ["Alvarez", "Leo", "MacAllister", "Dibu", "Enzo Fernandez"]
 
-for usuarioA in usuarios_actuales:
-    for usuarioB in usuarios_nuevos:
-        if usuarioA == usuarioB:
-            print("Ese nombre esta en uso, debe de elegir otro.")
-        else:
-            print("Ese nombre esta disponible.")
+usuario_mayus = [usuario.capitalize() for usuario in usuarios_actuales]
+
+for usuario in usuarios_nuevos:
+    if usuario in usuario_mayus:
+        print("El nombre", usuario, "YA ESTA EN USO.")
+    else:
+        print("El nombre", usuario, "ESTA DISPONIBLE.")
